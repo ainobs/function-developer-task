@@ -451,8 +451,17 @@ hr {
     margin-right: 10px;
   }
   .logo-mobile {
-    height: 15px
+    height: 15px;
+    margin-left: -10px;
   }
+  .carousel {
+    width: calc(400px * 5); /* set the width to fit all 6 items */
+  }
+/*   
+  .carousel-box {
+    width: calc(100% / 5);
+    padding: 20px;
+  } */
   
 
   /* .menu p {
