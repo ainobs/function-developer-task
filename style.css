@@ -455,13 +455,13 @@ hr {
     margin-left: -10px;
   }
   .carousel {
-    width: calc(400px * 5); /* set the width to fit all 6 items */
+    width: calc(320px * 5); /* set the width to fit all 6 items */
   }
-/*   
+  
   .carousel-box {
     width: calc(100% / 5);
-    padding: 20px;
-  } */
+    
+  }
   
 
   /* .menu p {
