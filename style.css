@@ -50,7 +50,7 @@ nav {
 
 .form img {
   position: absolute;
-  margin: 10px 0px 0px 10px;
+  /* margin: 10px 0px 0px 10px; */
   margin: 15px 20px;
 }
 
@@ -369,65 +369,99 @@ hr {
   font-weight: 200;
 }
 
-.mobile-nav {
+/* .mobile-nav {
   display: none;
-}
+} */
 
 .menu {
   display: none;
 }
 
-.bag {
+/* .bag {
   display: none;
-}
+} */
 
 .mobile-form {
   display: none;
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .nav-links {
     display: none;
   }
+  header {
+    padding-bottom: 20px;
+  }
 
-  .mobile-nav {
+  /* .mobile-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+  } */
 
   .mobile-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
     margin-top: 20px;
   }
 
   .mobile-form input {
     border: 1px solid lightgray;
     background-color: lightgray;
-    height: 30px;
-    width: 250px;
-    padding-left: 30px;
+    padding: 10px 35px;
+    
+    width: calc(100% - 70px); /* 20px margin on both sides */
   }
 
   .mobile-form img {
     position: absolute;
-    margin: 10px 0px 0px 10px;
+    margin: 12px 0 0px 10px;
+  }
+  /* .menu-icon {
+    display: flex;
+    align-items: center;
   }
 
   .menu {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
-
-  .menu p {
-    margin-left: 10px;
+  .menu-icon img {
+    margin-right: 10px; 
   }
-
+  
+  .logo,
   .bag {
-    display: block;
+    flex: 1;
+  } */
+
+  .nav-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
+  
+  .menu-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon img {
+    margin-right: 10px;
+  }
+  .logo-mobile {
+    height: 15px
+  }
+  
+
+  /* .menu p {
+    margin-left: 10px;
+  } */
+
+  /* .bag {
+    display: block;
+  } */
 
   .form {
     display: none;
@@ -508,7 +542,7 @@ hr {
     font-size: 15px;
     font-weight: 200;
   }
-  .test {
+  .br {
     display: none;
   }
 }
