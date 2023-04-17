@@ -1,7 +1,6 @@
-const carousel = document.getElementsByClassName('.carousel');
 
 document.addEventListener('DOMContentLoaded', () => {
-
+    const carousel = document.querySelector('.carousel');
     const size = carousel.clientWidth;
     let counter = 0;
   
