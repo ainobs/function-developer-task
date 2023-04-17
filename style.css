@@ -1,3 +1,4 @@
+/****** google font **********/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
@@ -182,15 +183,15 @@ nav {
 
 .carousel-container {
   width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   overflow-x: scroll;
   position: relative;
-  /* hide scrollbar for all browsers */
 scrollbar-width: none;
 -ms-overflow-style: none;
+ scrollbar-color: transparent transparent;
+  scrollbar-width: none;
 
 }
-/* hide scrollbar */
 ::-webkit-scrollbar {
   display: none;
 }
@@ -380,7 +381,6 @@ footer hr {
     display: block;
     border: none;
     border-top: 1px solid rgb(209, 208, 208);
-    
   }
   .mobile-form {
     display: block;
