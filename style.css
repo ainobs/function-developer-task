@@ -275,7 +275,10 @@ scrollbar-width: none;
   margin-top: 15px;
   line-height: 20px;
 }
-
+.edit-text {
+  color: gray;
+  font-weight: 200;
+}
 .gifts {
   height: 175px;
   background-color: rgb(15, 29, 15);
@@ -285,13 +288,11 @@ scrollbar-width: none;
   align-items: center;
   flex-direction: column;
 }
-
 .promo {
   color: white;
   font-size: 24px;
   font-weight: 300;
 }
-
 .promo-2 {
   font-size: 13px;
   color: grey;
@@ -373,7 +374,7 @@ hr {
   display: none;
 } */
 
-.menu {
+.nav-mobile{
   display: none;
 }
 
